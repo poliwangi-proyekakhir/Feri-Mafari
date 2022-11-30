@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+    </group>
+
+    <item android:title="MENU PEMILIK KOS" android:id="@+id/nav_group_pemilik">
+        <menu>
+            <item
+                android:id="@+id/nav_pemilik_kos"
+                android:icon="@drawable/ic_baseline_house_24"
+                android:title="Rumah Kos" />
+
+            <item
+                android:id="@+id/nav_pemilik_tagihan"
+                android:icon="@drawable/ic_baseline_calendar_today_24"
+                android:title="Tagihan" />
+
+
+            <item
+                android:id="@+id/nav_pemilik_sewa"
+                android:icon="@drawable/ic_baseline_done_all_24"
+                android:title="Sewa Aktif" />
+
+            <item
+                android:id="@+id/nav_pemilik_mutasi"
+                android:icon="@drawable/ic_baseline_attach_money_24"
+                android:title="Mutasi Dana" />
+
+            <item
+                android:id="@+id/nav_pemilik_profil"
+                android:icon="@drawable/ic_baseline_account_box_24"
+                android:title="Profil" />
+            <item
+                android:id="@+id/nav_pemilik_keluar"
+                android:icon="@drawable/ic_baseline_reply_24"
+                android:title="Keluar" />
+        </menu>
+    </item>
+
+    <item android:title="MENU PENYEWA KOS" android:id="@+id/nav_group_penyewa">
+        <menu>
+            <item
+                android:id="@+id/nav_penyewa_kos"
+                android:icon="@drawable/ic_baseline_house_24"
+                android:title="Rumah Kos" />
+            <item
+                android:id="@+id/nav_penyewa_tagihan"
+                android:icon="@drawable/ic_baseline_calendar_today_24"
+                android:title="Tagihan" />
+
+            <item
+                android:id="@+id/nav_penyewa_sewa"
+                android:icon="@drawable/ic_baseline_done_all_24"
+                android:title="Sewa Aktif" />
+
+            <item
+                android:id="@+id/nav_penyewa_profil"
+                android:icon="@drawable/ic_baseline_account_box_24"
+                android:title="Profil" />
+            <item
+                android:id="@+id/nav_penyewa_keluar"
+                android:icon="@drawable/ic_baseline_reply_24"
+                android:title="Keluar" />
+        </menu>
+    </item>
+</menu>

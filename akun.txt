@@ -1,0 +1,2 @@
+localhost:ti17108_kos:ti17108_kos:pO7PdPxq0GGa
+APP_URL=https://103.109.210.29/~ti17108
